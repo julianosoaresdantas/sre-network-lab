@@ -1,0 +1,5 @@
+*.pcap
+*.log
+results/*.txt
+results/*.pcap
+.DS_Store

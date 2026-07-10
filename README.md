@@ -32,3 +32,14 @@ echo "[$(date)] Novo estado / New state: $($TC qdisc show dev $INTERFACE)"
 - **Execução do Laboratório:** ![Execução](assets/print_execucao.png)
 - **Tabela de Performance:** ![Tabela](assets/print_tabela.png)
 - **Análise Wireshark:** ![Wireshark](assets/print_wireshark.png)
+
+### 📊 Evidências / Evidence
+
+**Troubleshooting Table / Tabela de Troubleshooting:**
+![Tabela](assets/print_tabela.png)
+
+**Chaos Script Execution / Execução do Script:**
+![Execução](assets/print_execucao.png)
+
+**Wireshark Analysis / Análise no Wireshark:**
+![Wireshark](assets/print_wireshark.png)
