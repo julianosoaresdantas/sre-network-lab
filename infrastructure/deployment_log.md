@@ -52,3 +52,6 @@ Repaired invalid YAML syntax in .github/workflows/ci.yaml.
 ## sáb 11 jul 2026 18:05:13 -03
 Resolved build error: added missing Dockerfile to repository root.
 -----------------------------------
+## sáb 11 jul 2026 18:09:15 -03
+Adjusted CodeQL source-root to /src to resolve detection error.
+-----------------------------------
