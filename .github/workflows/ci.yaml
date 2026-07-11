@@ -3,22 +3,27 @@ on:
   push:
     branches: [ main ]
 jobs:
-  # This job builds the app
-  build-and-push:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Build
-        run: echo "Build logic here"
-
-  # This job scans the code independently
   security-scan:
     runs-on: ubuntu-latest
     permissions:
       security-events: write
     steps:
       - uses: actions/checkout@v4
-      - uses: github/codeql-action/init@v3
+      
+      # 1. Inicializa o CodeQL especificando que faremos o build manualmente
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
         with:
           languages: python
-      - uses: github/codeql-action/analyze@v3
+          config-file: ./.github/codeql/codeql-config.yml # Opcional: crie este arquivo se precisar de filtros extras
+
+      # 2. O passo de "build" para Python é apenas garantir que os arquivos estejam lá
+      # O CodeQL vai observar a execução deste comando
+      - name: Perform Build
+        run: |
+          echo "Preparando ambiente para análise..."
+          ls -R src/  # Garante que o CodeQL "veja" o conteúdo da pasta src
+
+      # 3. Finaliza a análise
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
