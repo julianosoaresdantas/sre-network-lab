@@ -31,3 +31,6 @@ Switched remote from HTTPS to SSH to resolve authentication failure.
 ## sáb 11 jul 2026 16:57:45 -03
 Committed and pushed the CI pipeline configuration to the repository.
 -----------------------------------
+## sáb 11 jul 2026 16:59:39 -03
+Confirmed CI pipeline appearance in GitHub Actions; monitoring initial execution.
+-----------------------------------
