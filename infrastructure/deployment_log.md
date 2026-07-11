@@ -49,3 +49,6 @@ Committed and pushed the CI pipeline with CodeQL integration.
 ## sáb 11 jul 2026 18:02:24 -03
 Repaired invalid YAML syntax in .github/workflows/ci.yaml.
 -----------------------------------
+## sáb 11 jul 2026 18:05:13 -03
+Resolved build error: added missing Dockerfile to repository root.
+-----------------------------------
