@@ -79,3 +79,6 @@ Fixed CodeQL configuration error by removing invalid config path and upgrading a
 ## sáb 11 jul 2026 20:02:17 -03
 Synchronized CodeQL action versions to v4 to resolve configuration mismatch error.
 -----------------------------------
+## sáb 11 jul 2026 20:05:15 -03
+Fixed CodeQL source detection by setting source-root to /src.
+-----------------------------------
