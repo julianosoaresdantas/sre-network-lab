@@ -13,3 +13,6 @@ Deployed ArgoCD into the 'argocd' namespace for GitOps orchestration.
 ## sáb 11 jul 2026 13:24:36 -03
 Verified ArgoCD pod status in argocd namespace.
 -----------------------------------
+## sáb 11 jul 2026 13:27:42 -03
+ArgoCD port-forwarded and initial admin credentials retrieved.
+-----------------------------------
