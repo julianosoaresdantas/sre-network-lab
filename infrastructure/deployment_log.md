@@ -67,3 +67,6 @@ Forced YAML indentation correction in .github/workflows/ci.yaml.
 ## sáb 11 jul 2026 19:47:29 -03
 Decoupled security-scan from build-and-push to isolate CodeQL execution.
 -----------------------------------
+## sáb 11 jul 2026 19:50:34 -03
+Implemented manual build step in CodeQL workflow to resolve source code detection error.
+-----------------------------------
