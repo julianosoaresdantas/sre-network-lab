@@ -13,4 +13,6 @@ jobs:
         with:
           languages: python
           source-root: .
+      - name: Manual Build for CodeQL
+        run: python3 -m compileall src/
       - uses: github/codeql-action/analyze@v4
