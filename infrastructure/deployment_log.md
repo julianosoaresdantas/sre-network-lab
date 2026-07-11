@@ -85,3 +85,6 @@ Fixed CodeQL source detection by setting source-root to /src.
 ## sáb 11 jul 2026 20:08:48 -03
 Corrected CodeQL source-root to '.' to resolve invalid path error.
 -----------------------------------
+## sáb 11 jul 2026 20:16:28 -03
+Implemented manual compileall build step to force CodeQL file registration.
+-----------------------------------
