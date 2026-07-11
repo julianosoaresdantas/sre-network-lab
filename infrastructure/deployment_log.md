@@ -70,3 +70,6 @@ Decoupled security-scan from build-and-push to isolate CodeQL execution.
 ## sáb 11 jul 2026 19:50:34 -03
 Implemented manual build step in CodeQL workflow to resolve source code detection error.
 -----------------------------------
+## sáb 11 jul 2026 19:55:54 -03
+Addressed missing codeql-config.yml error and noted transition to CodeQL v4.
+-----------------------------------
