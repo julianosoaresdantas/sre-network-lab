@@ -9,21 +9,7 @@ jobs:
       security-events: write
     steps:
       - uses: actions/checkout@v4
-      
-      # 1. Inicializa o CodeQL especificando que faremos o build manualmente
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
+      - uses: github/codeql-action/init@v3
         with:
           languages: python
-          config-file: ./.github/codeql/codeql-config.yml # Opcional: crie este arquivo se precisar de filtros extras
-
-      # 2. O passo de "build" para Python é apenas garantir que os arquivos estejam lá
-      # O CodeQL vai observar a execução deste comando
-      - name: Perform Build
-        run: |
-          echo "Preparando ambiente para análise..."
-          ls -R src/  # Garante que o CodeQL "veja" o conteúdo da pasta src
-
-      # 3. Finaliza a análise
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
+      - uses: github/codeql-action/analyze@v4
