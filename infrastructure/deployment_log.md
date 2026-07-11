@@ -61,3 +61,6 @@ Fixed YAML indentation error in .github/workflows/ci.yaml.
 ## sáb 11 jul 2026 18:14:41 -03
 Updated CodeQL source-root to '.' (relative path) to fix path invalidation.
 -----------------------------------
+## sáb 11 jul 2026 18:21:44 -03
+Forced YAML indentation correction in .github/workflows/ci.yaml.
+-----------------------------------
