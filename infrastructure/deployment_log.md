@@ -58,3 +58,6 @@ Adjusted CodeQL source-root to /src to resolve detection error.
 ## sáb 11 jul 2026 18:11:30 -03
 Fixed YAML indentation error in .github/workflows/ci.yaml.
 -----------------------------------
+## sáb 11 jul 2026 18:14:41 -03
+Updated CodeQL source-root to '.' (relative path) to fix path invalidation.
+-----------------------------------
