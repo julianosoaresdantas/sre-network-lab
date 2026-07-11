@@ -1,13 +1,19 @@
-name: Build and Push
+name: Enterprise CI Pipeline
 on:
   push:
     branches: [ main ]
 jobs:
-  build:
+  build-and-push:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v4
-      - name: Build & Push Container
+      - name: Login to GHCR
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      - name: Build and Push Image
         run: |
-          echo "Building container image..."
-          # Aqui adicionaremos futuramente o comando de build (ex: docker build)
+          IMAGE_NAME=ghcr.io/${{ github.repository }}/titan-app:${{ github.sha }}
+          docker build -t $IMAGE_NAME .
+          docker push $IMAGE_NAME
