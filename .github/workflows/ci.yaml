@@ -18,7 +18,7 @@ jobs:
           docker build -t $IMAGE_NAME .
           docker push $IMAGE_NAME
 
-  security-scan:
+security-scan:
     needs: build-and-push
     runs-on: ubuntu-latest
     permissions:
@@ -28,5 +28,7 @@ jobs:
       - uses: github/codeql-action/init@v3
         with:
           languages: python
-          source-root: src
+          # Using '.' refers to the root of the workspace, 
+          # which is safer and usually correct.
+          source-root: .
       - uses: github/codeql-action/analyze@v3
