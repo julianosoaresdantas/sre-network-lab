@@ -25,3 +25,6 @@ ArgoCD GitOps pipeline fully operational. Titan-app healthy and synced.
 ## sáb 11 jul 2026 15:44:57 -03
 CI/CD lifecycle defined; planning implementation of ArgoCD Image Updater for autonomous deployments.
 -----------------------------------
+## sáb 11 jul 2026 16:33:11 -03
+Switched remote from HTTPS to SSH to resolve authentication failure.
+-----------------------------------
