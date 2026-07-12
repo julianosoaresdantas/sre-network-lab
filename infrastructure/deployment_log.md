@@ -118,3 +118,6 @@ Applied robust mocking tests and updated monitor.py for resilience.
 ## dom 12 jul 2026 11:11:53 -03
 Configured least-privilege sudoers rule and verified execution permissions for tc.
 -----------------------------------
+## dom 12 jul 2026 11:15:42 -03
+Implemented chaos.py with system-level tc calls and added integration testing.
+-----------------------------------
