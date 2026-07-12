@@ -124,3 +124,6 @@ Implemented chaos.py with system-level tc calls and added integration testing.
 ## dom 12 jul 2026 11:18:50 -03
 Integrated chaos.py into the app.py main loop for automated resilience testing.
 -----------------------------------
+## dom 12 jul 2026 11:24:11 -03
+Integrated professional logging for auditability in the main resilience loop.
+-----------------------------------
