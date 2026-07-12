@@ -121,3 +121,6 @@ Configured least-privilege sudoers rule and verified execution permissions for t
 ## dom 12 jul 2026 11:15:42 -03
 Implemented chaos.py with system-level tc calls and added integration testing.
 -----------------------------------
+## dom 12 jul 2026 11:18:50 -03
+Integrated chaos.py into the app.py main loop for automated resilience testing.
+-----------------------------------
