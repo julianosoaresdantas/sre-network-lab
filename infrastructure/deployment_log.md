@@ -130,3 +130,6 @@ Integrated professional logging for auditability in the main resilience loop.
 ## dom 12 jul 2026 11:47:49 -03
 Migrated SRE notification bot from meualertaseguranca_bot to mysecurityalert_bot.
 -----------------------------------
+## dom 12 jul 2026 12:48:24 -03
+Debugged metrics server: confirmed port 8000 was unreachable or misrouted.
+-----------------------------------
