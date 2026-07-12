@@ -115,3 +115,6 @@ Verified initial unit test pass and discussed mocking strategy and secure sudoer
 ## dom 12 jul 2026 11:07:33 -03
 Applied robust mocking tests and updated monitor.py for resilience.
 -----------------------------------
+## dom 12 jul 2026 11:11:53 -03
+Configured least-privilege sudoers rule and verified execution permissions for tc.
+-----------------------------------
