@@ -136,3 +136,6 @@ Debugged metrics server: confirmed port 8000 was unreachable or misrouted.
 ## dom 12 jul 2026 12:53:47 -03
 Investigated sudden script termination; suspected missing persistent loop or environment mismatch.
 -----------------------------------
+## dom 12 jul 2026 14:35:25 -03
+Verified Prometheus scrape success; finalized Grafana dashboard visualization setup.
+-----------------------------------
