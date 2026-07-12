@@ -127,3 +127,6 @@ Integrated chaos.py into the app.py main loop for automated resilience testing.
 ## dom 12 jul 2026 11:24:11 -03
 Integrated professional logging for auditability in the main resilience loop.
 -----------------------------------
+## dom 12 jul 2026 11:47:49 -03
+Migrated SRE notification bot from meualertaseguranca_bot to mysecurityalert_bot.
+-----------------------------------
