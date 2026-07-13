@@ -148,3 +148,6 @@ Created docs/SECURITY.md to decouple security policies from main README, followi
 ## seg 13 jul 2026 13:32:18 -03
 Fixed directory structure issue for logging; guided user to create nested 'logs' directory and verify output.
 -----------------------------------
+## seg 13 jul 2026 13:35:31 -03
+Refined chaos script for better auditability and added cleanup procedure, completing the SRE operational workflow.
+-----------------------------------
