@@ -139,3 +139,6 @@ Investigated sudden script termination; suspected missing persistent loop or env
 ## dom 12 jul 2026 14:35:25 -03
 Verified Prometheus scrape success; finalized Grafana dashboard visualization setup.
 -----------------------------------
+## seg 13 jul 2026 12:29:59 -03
+Confirmed Prometheus target is UP; guiding user to final Grafana panel configuration to display the latency metric.
+-----------------------------------
