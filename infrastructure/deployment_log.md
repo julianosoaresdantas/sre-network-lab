@@ -142,3 +142,6 @@ Verified Prometheus scrape success; finalized Grafana dashboard visualization se
 ## seg 13 jul 2026 12:29:59 -03
 Confirmed Prometheus target is UP; guiding user to final Grafana panel configuration to display the latency metric.
 -----------------------------------
+## seg 13 jul 2026 13:29:22 -03
+Created docs/SECURITY.md to decouple security policies from main README, following professional SRE documentation standards.
+-----------------------------------
