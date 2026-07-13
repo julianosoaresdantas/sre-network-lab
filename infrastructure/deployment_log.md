@@ -145,3 +145,6 @@ Confirmed Prometheus target is UP; guiding user to final Grafana panel configura
 ## seg 13 jul 2026 13:29:22 -03
 Created docs/SECURITY.md to decouple security policies from main README, following professional SRE documentation standards.
 -----------------------------------
+## seg 13 jul 2026 13:32:18 -03
+Fixed directory structure issue for logging; guided user to create nested 'logs' directory and verify output.
+-----------------------------------
