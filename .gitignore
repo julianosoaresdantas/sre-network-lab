@@ -3,3 +3,9 @@
 results/*.txt
 results/*.pcap
 .DS_Store
+
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfout
+.terraform.lock.hcl
