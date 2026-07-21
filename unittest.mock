@@ -1,0 +1,11 @@
+# tests/test_monitor.py
+from unittest.mock import patch
+from src.monitor import get_latency
+
+@patch("os.popen")
+def test_get_latency_mocked(mock_popen):
+    # Simula a saída do comando ping
+    mock_popen.return_value.read.return_value = "64 bytes from 8.8.8.8: icmp_seq=1 ttl=117 time=15.2 ms"
+    
+    latency = get_latency("8.8.8.8")
+    assert latency == 15.2
