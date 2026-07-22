@@ -43,3 +43,7 @@ echo "[$(date)] Novo estado / New state: $($TC qdisc show dev $INTERFACE)"
 
 **Wireshark Analysis / Análise no Wireshark:**
 ![Wireshark](assets/print_wireshark.png)
+
+### 🤝 Feedback
+Found a bug or have a suggestion? Feel free to open an **issue** or submit a **pull request**. If you enjoyed this project, give it a **star**! ⭐
+Encontrou um bug ou tem alguma sugestão? Sinta-se à vontade para abrir uma issue ou enviar um pull request. Se você gostou deste projeto, deixe uma estrela! ⭐
